@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="jquery/jquery-3.6.1.js" defer></script>
+    <script src="script/script.js" defer></script>
+    <title>Vocabulary</title>
+</head>
+<body>
+<div id="level-box">
+    <div class="message">Choose your level</div>
+    <select id="level">
+        <option value="easy">Beginner</option>
+        <option value="mid">Intermediate</option>
+        <option value="hard">Proficiency</option>
+    </select>
+    <button>Start</button>
+</div>
+<div id="repeat-box">
+    <div class="message"></div>
+    <button>Try again</button>
+</div>
+<div id="content">
+    <div class="header">Stats</div>
+    <div id="scores">
+        <span id="correct">0/10</span>
+        <span id="incorrect">0/10</span>
+    </div>
+    <br>
+    <div id="card"></div>
+    <div id="cards-left">1/10</div>
+    <div>
+        <input id="answer" type="text" placeholder="Ваш переклад">
+    </div>
+    <button id="check">Next</button>
+</div>
+</body>
+</html>
